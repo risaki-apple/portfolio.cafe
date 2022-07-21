@@ -115,7 +115,7 @@
   .l-header .p-nav__wrapper .p-nav .p-nav__list {
     display: block;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
@@ -123,11 +123,11 @@
   }
   .l-header .p-nav__wrapper .p-nav .p-nav__list .p-nav__listItem {
     margin-right: 0;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
   .l-header .p-nav__wrapper .p-nav .p-nav__list .p-nav__listItem a {
     color: #fff;
-    font-size: 25px;
+    font-size: 12px;
   }
   .l-main .p-topImg ul li .p-topImg__textArea {
     position: static !important;
@@ -181,6 +181,17 @@
   }
   .l-footer div .p-app .p-app__btn {
     margin-bottom: 50px;
+  }
+  .l-footer .p-footerMenu ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .l-footer .p-footerMenu ul li {
+    width: 50%;
+    padding-bottom: 29px;
+  }
+  .l-footer .p-footerMenu ul li:nth-child(3), .l-footer .p-footerMenu ul li:last-child {
+    padding-bottom: 0;
   }
 }
 /*# sourceMappingURL=sp.css.map */

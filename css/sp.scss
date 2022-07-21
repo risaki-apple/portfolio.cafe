@@ -120,18 +120,18 @@
         .p-nav__list {
           display: block;
           position: absolute;
-          top: 50%;
+          top: 40%;
           left: 50%;
           transform: translate(-50%, -50%);
           text-align: center;
 
           .p-nav__listItem {
             margin-right: 0;
-            margin-bottom: 40px;
+            margin-bottom: 50px;
 
             a {
               color: #fff;
-              font-size: 25px;
+              font-size: 12px;
             }
           }
         }
@@ -214,6 +214,22 @@
 
         .p-app__btn {
           margin-bottom: 50px;
+        }
+      }
+    }
+
+    .p-footerMenu {
+      ul {
+        flex-wrap: wrap;
+
+        li {
+          width: 50%;
+          padding-bottom: 29px;
+
+          &:nth-child(3),
+          &:last-child {
+            padding-bottom: 0;
+          }
         }
       }
     }
