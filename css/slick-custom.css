@@ -1,8 +1,16 @@
 .slick-dots {
   bottom: initial;
   margin-top: -50px;
-  right: -35%;
+  right: -40%;
   color: #fff;
+}
+
+.slick-dots li {
+  width: 5px !important;
+}
+
+.slick-slide {
+  margin: 0 5px;
 }
 
 @media screen and (max-width: 768px) {
