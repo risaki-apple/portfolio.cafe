@@ -186,12 +186,14 @@
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .l-footer .p-footerMenu ul li {
-    width: 50%;
-    padding-bottom: 29px;
+  .l-footer .p-footerMenu ul .p-footerMenu__cafe {
+    margin-left: 0;
   }
-  .l-footer .p-footerMenu ul li:nth-child(3), .l-footer .p-footerMenu ul li:last-child {
-    padding-bottom: 0;
+  .l-footer .p-footerMenu ul li {
+    width: calc(50% - 100px);
+  }
+  .l-footer .p-footerMenu ul li:nth-child(3), .l-footer .p-footerMenu ul li:nth-child(4) {
+    margin-top: 50px;
   }
 }
 /*# sourceMappingURL=sp.css.map */
