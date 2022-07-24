@@ -4,6 +4,10 @@ button {
   cursor: pointer;
 }
 
+a {
+  cursor: pointer;
+}
+
 .u-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -124,7 +128,7 @@ section {
   padding: 7px 11px;
 }
 
-.l-header .p-header .p-header__btn:hover {
+.l-header .p-header .p-header__btn a:hover {
   background-color: #8b4513;
 }
 

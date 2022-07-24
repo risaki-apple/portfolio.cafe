@@ -3,6 +3,10 @@ button {
   cursor: pointer;
 }
 
+a {
+  cursor: pointer;
+}
+
 .u-flex {
   display: flex;
 }
@@ -128,10 +132,9 @@ section {
         font-weight: bold;
         color: #fff;
         padding: 7px 11px;
-      }
-
-      &:hover {
-        background-color: #8b4513;
+        &:hover {
+          background-color: #8b4513;
+        }
       }
     }
   }
