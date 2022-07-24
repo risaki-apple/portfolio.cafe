@@ -137,6 +137,19 @@
         }
       }
     }
+
+    .p-header__btn {
+      a {
+        background-color: #fff !important;
+        color: #eb9050 !important;
+        padding: 0 !important;
+
+        &:hover {
+          opacity: 0.5 !important;
+          background-color: #fff !important;
+        }
+      }
+    }
   }
   .l-main {
     .p-topImg {
@@ -195,6 +208,16 @@
     .p-initiatives__textArea {
       top: 50% !important;
     }
+    .p-initiatives__title {
+      font-size: 25px !important;
+    }
+    .p-initiatives__text {
+      font-size: 10px !important;
+      margin-top: 10px !important;
+    }
+    .p-initiatives__btn {
+      margin-top: 10px !important;
+    }
   }
 
   .l-footer {
@@ -225,7 +248,8 @@
           margin-left: 0;
         }
         li {
-          width: calc(50% - 100px);
+          margin-right: 0;
+          width: 50%;
           &:nth-child(3),
           &:nth-child(4) {
             margin-top: 50px;

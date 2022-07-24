@@ -129,6 +129,15 @@
     color: #fff;
     font-size: 12px;
   }
+  .l-header .p-header__btn a {
+    background-color: #fff !important;
+    color: #eb9050 !important;
+    padding: 0 !important;
+  }
+  .l-header .p-header__btn a:hover {
+    opacity: 0.5 !important;
+    background-color: #fff !important;
+  }
   .l-main .p-topImg ul li .p-topImg__textArea {
     position: static !important;
   }
@@ -164,6 +173,16 @@
   .p-initiatives .p-initiatives__textArea {
     top: 50% !important;
   }
+  .p-initiatives .p-initiatives__title {
+    font-size: 25px !important;
+  }
+  .p-initiatives .p-initiatives__text {
+    font-size: 10px !important;
+    margin-top: 10px !important;
+  }
+  .p-initiatives .p-initiatives__btn {
+    margin-top: 10px !important;
+  }
   .l-footer {
     padding: 50px 0;
   }
@@ -190,7 +209,8 @@
     margin-left: 0;
   }
   .l-footer .p-footerMenu ul li {
-    width: calc(50% - 100px);
+    margin-right: 0;
+    width: 50%;
   }
   .l-footer .p-footerMenu ul li:nth-child(3), .l-footer .p-footerMenu ul li:nth-child(4) {
     margin-top: 50px;
