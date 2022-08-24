@@ -1,6 +1,12 @@
+@charset "UTF-8";
 @media screen and (max-width: 768px) {
-  .noscroll {
+  body.noscroll {
     overflow: hidden;
+    height: 100%;
+  }
+  html {
+    overflow: auto;
+    height: 100%;
   }
   .p-nav__wrapper.fade {
     visibility: visible;
@@ -9,6 +15,25 @@
   .p-nav__wrapper.slide-in {
     -webkit-transform: translateX(0) !important;
             transform: translateX(0) !important;
+  }
+  .p-nav__wrapper.slide-in nav {
+    /* 縦方向のスクロールバーを表示 */
+    overflow-y: scroll;
+    /* IE などのスクロールバーの色設定 */
+    scrollbar-face-color: rgba(235, 144, 80, 0.3);
+    scrollbar-track-color: #eee;
+    /* スマホ用の慣性スクロール */
+    -webkit-overflow-scrolling: touch;
+    /* Chrome などでは細めのきれいなスクロールバーを表示 */
+  }
+  .p-nav__wrapper.slide-in nav::-webkit-scrollbar {
+    width: 5px;
+  }
+  .p-nav__wrapper.slide-in nav::-webkit-scrollbar-thumb {
+    background: rgba(235, 144, 80, 0.3);
+  }
+  .p-nav__wrapper.slide-in nav::-webkit-scrollbar-track {
+    background: rgba(235, 144, 80, 0.1);
   }
   .burger-btn.close span {
     background-color: #fff !important;
@@ -113,12 +138,8 @@
     z-index: 50;
   }
   .l-header .p-nav__wrapper .p-nav .p-nav__list {
+    margin-top: 100px;
     display: block;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
     text-align: center;
   }
   .l-header .p-nav__wrapper .p-nav .p-nav__list .p-nav__listItem {
