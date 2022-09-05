@@ -497,8 +497,8 @@ section {
       }
       li {
         margin-right: 100px;
+        cursor: pointer;
         .yazirusi {
-          cursor: pointer;
           &::before {
             content: "";
             position: absolute;
