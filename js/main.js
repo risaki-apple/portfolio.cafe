@@ -26,6 +26,9 @@ $(function () {
         $('.p-nav__wrapper').toggleClass('slide-in');
         $('body').toggleClass('noscroll'); // 追記
     });
+    $('.p-nav__listItem>a').on('click', function(event) {
+        $('.burger-btn').trigger('click');
+    });
 });
 
 //スライドアニメーション
